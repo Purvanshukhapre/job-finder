@@ -1,0 +1,9 @@
+.main-cont{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.wishlist{
+  display: none;
+}

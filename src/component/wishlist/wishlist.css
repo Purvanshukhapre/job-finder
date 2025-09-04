@@ -1,0 +1,112 @@
+.wishlist-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.wishlist-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.wishlist-header h1 {
+  font-size: 2.2rem;
+  color: #333;
+}
+
+.back-home-btn {
+  text-decoration: none;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 6px;
+  transition: 0.3s ease;
+}
+
+.back-home-btn:hover {
+  background-color: #0056b3;
+  color: white;
+}
+
+.empty-message {
+  font-size: 1.1rem;
+  color: #666;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.wishlist-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 20px;
+}
+
+.wishlist-card {
+  background-color: #ffffff;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+  transition: 0.3s ease;
+}
+
+.wishlist-card:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+.wishlist-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.wishlist-card h2 {
+  font-size: 1.25rem;
+  color: #222;
+  margin: 0;
+}
+
+.remove-btn {
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  color: #ff4d4d;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.remove-btn:hover {
+  color: #cc0000;
+}
+
+.company {
+  font-weight: 500;
+  color: #555;
+  margin-top: 5px;
+}
+
+.location,
+.job-level {
+  font-size: 0.95rem;
+  color: #777;
+  margin-top: 4px;
+}
+
+.apply-btn {
+  margin-top: 15px;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background-color: #28a745;
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.apply-btn:hover {
+  background-color: #218838;
+}
